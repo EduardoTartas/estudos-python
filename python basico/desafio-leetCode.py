@@ -10,3 +10,13 @@ class Solution(object):
 
 
     print(twoSum(0,[3,2,3], 6))
+
+class Solution(object):
+    def isPalindrome(self, x):
+        x = str(x)
+        if x == x[::-1]:
+            return True
+        else:
+            return False
+
+    print(isPalindrome(0, 121))
